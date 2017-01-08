@@ -37,9 +37,8 @@ TrainPriceScraper
 import re
 import itertools
 import arrow
-from demo.class_staticwebscraper import StaticSingleWebScraper
-from libs.class_mongodb import MongoDB
-from libs.class_multithread import MultiThread
+from libs.webscraper.class_staticwebscraper import StaticSingleWebScraper
+from libs.multithread.class_multithread import MultiThread
 
 
 class TrainStationScraper:
@@ -106,9 +105,6 @@ class TrainTicketLeftScraper:
         self._fmt = 'http://mobile.12306.cn/weixin/leftTicket/query?leftTicketDTO.train_date={}&leftTicketDTO.from_station={}&leftTicketDTO.to_station={}&purpose_codes=ADULT'
         self._today = arrow.utcnow().format('YYYY-MM-DD')
 
-        self._station_check_db = MongoDB(mongo_str='mongodb://mongouser:z1Yh2900@123.207.185.126:27017/')
-        self._station_check_db.connect('train','stationcheck')
-
     def multi_station_pairs_query(self, pairs, day=None):
         result = []
         while pairs:
@@ -163,16 +159,3 @@ if __name__ == '__main__':
     print(ticket_scraper.one_station_pair_query(day='2017-01-09', pair=('JCJ','DIP')))
     print(ticket_scraper.multi_station_pairs_query(day='2017-01-09', pairs=[('JCJ', 'DIP'),('DIP', 'JCJ'),('DIP', 'JCE')]))
 
-    station_db = MongoDB(mongo_str='mongodb://mongouser:z1Yh2900@123.207.185.126:27017/')
-    station_db.connect('train', 'stations')
-
-    limit = 1235
-    station_pairs = station_db.collection.find(projection={'_id':0,'from':1,'to':1},limit=limit)
-    station_pairs_list = [(record['from'],record['to']) for record in station_pairs]
-
-    validator = StationPairValidator()
-    group = 40
-    validator.multi_validate_pars(pairs_list=[station_pairs_list[i:(i+group)] for i in range(0,len(station_pairs_list),group)],
-                                  day='2017-01-11')
-
-    #print(len(validator.validate_pairs(pairs=station_pairs_list,day='2017-01-11')))

@@ -37,7 +37,7 @@ StaticWebScraper
 
 import requests
 from bs4 import BeautifulSoup
-from libs.class_htmlparser import HtmlParser
+from libs.htmlparser.class_htmlparser import HtmlParser
 import warnings
 
 warnings.filterwarnings("ignore")
