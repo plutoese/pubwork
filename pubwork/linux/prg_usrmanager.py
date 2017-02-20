@@ -2,8 +2,8 @@
 
 import os
 
-user = 'demo'
-pwd = 'demo'
+user = 'plutoese'
+pwd = 'z1Yh29'
 user_pwd = ':'.join([user,pwd])
 print(user_pwd)
 
