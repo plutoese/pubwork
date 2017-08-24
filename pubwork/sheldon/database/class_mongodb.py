@@ -107,7 +107,7 @@ class MongoDB:
 class MonDatabase:
     """ 连接MongoDB中的Database
 
-    :param MongoDB mongodb: MongoDB连接
+    :param str,MongoDB mongodb: MongoDB连接
     :param str database_name: Database名称
     :return: 无返回值
     """
@@ -174,7 +174,7 @@ class MonDatabase:
 class MonCollection:
     """ 连接MongoDB中Database下的数据集合Collection
 
-    :param MonDatabase database: Database连接
+    :param str,MonDatabase database: Database连接
     :param str collection_name: 数据集合collection名称
     :return: 无返回值
     """
