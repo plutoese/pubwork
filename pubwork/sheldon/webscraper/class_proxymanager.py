@@ -82,6 +82,14 @@ class ProxyManager:
         """
         return random.choice(list(self.find(limit=40)))
 
+    @property
+    def top_50_proxies(self):
+        """ 随机返回一个代理服务器，选择的权重是它的count
+
+        :return: 随机返回一个代理服务器
+        """
+        return list(self.find(limit=50))
+
 if __name__ == '__main__':
     pmanager = ProxyManager()
     print(pmanager.find(limit=10))

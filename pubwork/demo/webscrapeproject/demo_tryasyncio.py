@@ -15,7 +15,9 @@ async def example():
 
 async def get(url, session):
     try:
-        async with session.get(url, proxy=ProxyManager().random_proxy) as resp:
+        proxy = ProxyManager().random_proxy
+        print('Start Proxy... ', proxy)
+        async with session.get(url, proxy=proxy) as resp:
             return await resp.text()
     except:
         return await get(url,session)
