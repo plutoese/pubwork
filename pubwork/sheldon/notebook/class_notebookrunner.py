@@ -14,6 +14,8 @@ def run_notebook(path):
             # transform the input to executable Python
             code = shell.input_transformer_manager.transform_cell(cell.source)
             # run the code in themodule
+        else:
+            code = cell.source
         result.append(shell.run_cell(code))
 
     return result
