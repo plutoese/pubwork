@@ -58,13 +58,13 @@ class Redis:
             pass
 
     def get(self,name):
-        if bytes.decode(db.type(name)) == 'str':
+        if bytes.decode(self.type(name)) == 'str':
             return self._r.get(name=name)
-        elif bytes.decode(db.type(name)) == 'list':
+        elif bytes.decode(self.type(name)) == 'list':
             return [bytes.decode(item) for item in self._r.lrange(name=name,start=0,end=self._r.llen(name=name))]
-        elif bytes.decode(db.type(name)) == 'set':
+        elif bytes.decode(self.type(name)) == 'set':
             return {bytes.decode(item) for item in self._r.smembers(name=name)}
-        elif bytes.decode(db.type(name)) == 'hash':
+        elif bytes.decode(self.type(name)) == 'hash':
             return {bytes.decode(key):bytes.decode(self._r.hgetall(name)[key]) for key in self._r.hgetall(name)}
         else:
             pass
