@@ -38,10 +38,12 @@
     <SUITE FILE_PATH="coverage/pubwork$moop_first.coverage" NAME="moop_first Coverage Results" MODIFIED="1496584154942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$class_proxy.coverage" NAME="class_proxy Coverage Results" MODIFIED="1498298979696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/proxypool" />
     <SUITE FILE_PATH="coverage/pubwork$demo_baiduapi.coverage" NAME="demo_baiduapi Coverage Results" MODIFIED="1500532898152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/spatialtraining" />
+    <SUITE FILE_PATH="coverage/pubwork$class_redis.coverage" NAME="class_redis Coverage Results" MODIFIED="1504449928968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/database" />
     <SUITE FILE_PATH="coverage/pubwork$prg_usrmanager.coverage" NAME="prg_usrmanager Coverage Results" MODIFIED="1487925432042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
     <SUITE FILE_PATH="coverage/pubwork$demo_tryasyncio.coverage" NAME="demo_tryasyncio Coverage Results" MODIFIED="1503559944462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webscrapeproject" />
     <SUITE FILE_PATH="coverage/pubwork$class_proxiesmanager.coverage" NAME="class_proxiesmanager Coverage Results" MODIFIED="1498398501585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
     <SUITE FILE_PATH="coverage/pubwork$class_headlessbrowser.coverage" NAME="class_headlessbrowser Coverage Results" MODIFIED="1498402224290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_redis.coverage" NAME="demo_redis Coverage Results" MODIFIED="1504445409883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$demo_pylatex.coverage" NAME="demo_pylatex Coverage Results" MODIFIED="1504169858941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1503617081894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geeker/pythonnotebook" />
     <SUITE FILE_PATH="coverage/pubwork$class_cnkiscraper.coverage" NAME="class_cnkiscraper Coverage Results" MODIFIED="1498404119798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
@@ -57,20 +59,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="class_proxymanager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sheldon/webscraper/class_proxymanager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app_cnkiscrpaer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_cnkiscrpaer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
+            <state relative-caret-position="650">
               <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding>
                 <element signature="e#160#222#0" expanded="true" />
@@ -79,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_notebookrunner.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class_notebookrunner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sheldon/notebook/class_notebookrunner.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -91,14 +83,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_xlsx.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/learner/demo_xlsx.py">
+      <file leaf-file-name="demo_redis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/learner/demo_redis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="e#19#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="130">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_redis.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sheldon/database/class_redis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="67" column="112" lean-forward="false" selection-start-line="67" selection-start-column="112" selection-end-line="67" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_mongodb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sheldon/database/class_mongodb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4325">
+              <caret line="170" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="283" selection-end-column="83" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/demo_schedule.py" />
-        <option value="$PROJECT_DIR$/cmdline/cmd_hello.py" />
-        <option value="$PROJECT_DIR$/libs/application/train/class_trainscraper.py" />
         <option value="$PROJECT_DIR$/libs/mail/class_mail.py" />
         <option value="$PROJECT_DIR$/linux/class_linux.py" />
         <option value="$PROJECT_DIR$/linux/prg_usrmanager.py" />
@@ -183,6 +190,9 @@
         <option value="$PROJECT_DIR$/demo/learner/demo_webdriver.py" />
         <option value="$PROJECT_DIR$/application/cnkiscraper/app_cnkiscrpaer.py" />
         <option value="$PROJECT_DIR$/sheldon/notebook/class_notebookrunner.py" />
+        <option value="$PROJECT_DIR$/demo/learner/demo_redis.py" />
+        <option value="$PROJECT_DIR$/sheldon/database/class_Redis.py" />
+        <option value="$PROJECT_DIR$/sheldon/database/class_redis.py" />
       </list>
     </option>
   </component>
@@ -214,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="notebook" />
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,7 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,17 +306,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cnkiscraper" />
+              <option name="myItemId" value="learner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,43 +335,7 @@
       <recent name="D:\github\pubwork\pubwork\sheldon\database" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app_cnkiscrpaer">
-    <configuration default="false" name="demo_checkdatetype" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/airqualitymin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pubwork" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/airqualitymin/demo_checkdatetype.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="demo_xlsx" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/learner" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pubwork" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/learner/demo_xlsx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.class_redis">
     <configuration default="false" name="demo_pylatex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -412,6 +386,42 @@
       <module name="pubwork" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/learner/demo_webdriver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="demo_redis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/learner" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pubwork" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/learner/demo_redis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="class_redis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sheldon/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pubwork" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sheldon/database/class_redis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -631,19 +641,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.demo_checkdatetype" />
-      <item index="1" class="java.lang.String" itemvalue="Python.demo_xlsx" />
-      <item index="2" class="java.lang.String" itemvalue="Python.demo_pylatex" />
-      <item index="3" class="java.lang.String" itemvalue="Python.app_cnkiscrpaer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.demo_webdriver" />
+      <item index="0" class="java.lang.String" itemvalue="Python.demo_pylatex" />
+      <item index="1" class="java.lang.String" itemvalue="Python.app_cnkiscrpaer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.demo_webdriver" />
+      <item index="3" class="java.lang.String" itemvalue="Python.demo_redis" />
+      <item index="4" class="java.lang.String" itemvalue="Python.class_redis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.app_cnkiscrpaer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.demo_webdriver" />
-        <item index="2" class="java.lang.String" itemvalue="Python.demo_pylatex" />
-        <item index="3" class="java.lang.String" itemvalue="Python.demo_xlsx" />
-        <item index="4" class="java.lang.String" itemvalue="Python.demo_checkdatetype" />
+        <item index="0" class="java.lang.String" itemvalue="Python.class_redis" />
+        <item index="1" class="java.lang.String" itemvalue="Python.demo_redis" />
+        <item index="2" class="java.lang.String" itemvalue="Python.app_cnkiscrpaer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.demo_webdriver" />
+        <item index="4" class="java.lang.String" itemvalue="Python.demo_pylatex" />
       </list>
     </recent_temporary>
   </component>
@@ -661,8 +671,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25572917" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -670,7 +680,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25483504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.298066" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.298066" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -725,20 +735,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/htmlparser/class_htmlparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/yangstock/demo_dataclean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="62" column="75" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/learner/moop_first.py" />
     <entry file="file://$PROJECT_DIR$/application/proxypool/class_proxy.py" />
     <entry file="file://$PROJECT_DIR$/application/statsgov/demo_urlparser.py">
@@ -953,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sheldon/database/class_mongodb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4654">
-          <caret line="180" column="67" lean-forward="false" selection-start-line="180" selection-start-column="52" selection-end-line="180" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/learner/demo_pylatex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -1020,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="791">
           <caret line="374" column="44" lean-forward="false" selection-start-line="374" selection-start-column="31" selection-end-line="374" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +1016,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="68" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheldon/webscraper/class_proxymanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_cnkiscrpaer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="e#160#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,36 +1042,42 @@
         <state relative-caret-position="260">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
-            <element signature="e#19#38#0" expanded="true" />
+            <element signature="e#19#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sheldon/webscraper/class_proxymanager.py">
+    <entry file="file://$PROJECT_DIR$/sheldon/database/class_mongodb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+        <state relative-caret-position="4325">
+          <caret line="170" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="283" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_cnkiscrpaer.py">
+    <entry file="file://$PROJECT_DIR$/demo/learner/demo_redis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="e#160#222#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sheldon/notebook/class_notebookrunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheldon/database/class_redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="67" column="112" lean-forward="false" selection-start-line="67" selection-start-column="112" selection-end-line="67" selection-end-column="112" />
+          <folding />
         </state>
       </provider>
     </entry>
