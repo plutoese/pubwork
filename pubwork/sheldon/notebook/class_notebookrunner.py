@@ -13,7 +13,6 @@ def run_notebook(path,start=0,last=None):
         last = len(nb.cells)
 
     for cell_num in range(start,last):
-        print(cell_num)
         if nb.cells[cell_num].cell_type == 'code':
             # transform the input to executable Python
             code = shell.input_transformer_manager.transform_cell(nb.cells[cell_num].source)
