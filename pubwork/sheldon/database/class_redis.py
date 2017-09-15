@@ -77,6 +77,28 @@ class Redis:
 
 if __name__ == '__main__':
     db = Redis()
+
+    core_dbs = db.get('core_database')
+    for item in core_dbs:
+        print(db.get(item)['label'])
+
+    '''
+    #db.set('core_database',['ceic'])
+    #db.set('scraper_database',['airquality'])
+    db.set('ceic',{'label':'中国宏观经济数据平台(CEIC)',
+                   'intro':'中国数据库包含超过30万条宏观经济、行业及区域的时间序列数据，CEIC中国数据库已经成为分析中国经济的最佳工具。',
+                   'author':'system',
+                   'group':'core_database',
+                   'source':'CEIC中国数据库',
+                   'link':'../core_database/querier_ceic.ipynb?dashboard'})
+    db.set('airquality', {'label': '中国城市空气质量日报数据库',
+                          'intro': '中国城市空气质量日报数据包含2014年1月1日以来每天中国城市空气质量日报的数据。',
+                          'author': 'admin',
+                          'group': 'scraper_database',
+                          'source':'中华人民共和国环境保护部数据中心',
+                          'link':'../scraper_database/querier_airquality.ipynb?dashboard'})'''
+
+    '''
     print(len(db))
     db.clear_all()
 
@@ -87,6 +109,6 @@ if __name__ == '__main__':
     print(db.get('check'))
 
     db.set('mdic',{'name':'Alice','age':24})
-    print(db.get('mdic'))
+    print(db.get('mdic'))'''
 
 
