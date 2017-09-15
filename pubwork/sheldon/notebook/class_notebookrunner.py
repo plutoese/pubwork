@@ -24,5 +24,3 @@ def run_notebook(path,start=0,last=None):
 
     return result
 
-
-run_notebook(path=r'D:/github/pubwork/pubwork/geeker/pythonnotebook/first_python_notebook.ipynb',last=3)
