@@ -75,6 +75,10 @@ class BarPlot(Plot):
     :return: 无返回值
     """
     def __init__(self, x, y=None, type='vbar', data_source=None, group_fn=np.mean, **kwargs):
+        if isinstance(x,(list,tuple)) and len(x) == 1:
+            x = x[0]
+        if isinstance(y,(list,tuple)) and len(y) == 1:
+            y = y[0]
         if isinstance(x,str) and data_source[x].duplicated().any():
             data_source = (data_source.groupby(x)).aggregate(group_fn)
             data_source[x] = list(data_source.index)
@@ -228,13 +232,13 @@ if __name__ == '__main__':
 
     mdata = pd.DataFrame({'fruits': fruits, 'counts': counts})
     mdata = mdata.sort_values(by='counts',ascending=True)
-    barplot = BarPlot(x='fruits',y='counts',type='hbar', data_source=mdata)
+    barplot = BarPlot(x=('fruits',),y='counts',type='hbar', data_source=mdata)
 
     df = pd.DataFrame({'A': ['foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'foo'],
                        'B': ['one', 'one', 'two', 'three', 'two', 'two', 'one', 'three'],
                        'C': np.random.randn(8), 'D': np.random.randn(8)})
-    barplot = BarPlot(x=['A','B'],y='C',type='vbar',data_source=df,title='这是')
-    #show(barplot())
+    #barplot = BarPlot(x=['A','B'],y='C',type='vbar',data_source=df,title='这是')
+    show(barplot())
 
     circle_plot = PointPlot(x='C',y='D',data_source=df,groupby='A',label='B',plot_width=400,plot_height=400,title='散点图')
     #show(circle_plot(size=10,alpha=0.5))

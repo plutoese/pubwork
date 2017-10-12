@@ -13,54 +13,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pubwork$demo_xlsx.coverage" NAME="demo_xlsx Coverage Results" MODIFIED="1503978522693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$demo_handlehomework.coverage" NAME="demo_handlehomework Coverage Results" MODIFIED="1497490746406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner/Asyncio" />
     <SUITE FILE_PATH="coverage/pubwork$demo_parellprog.coverage" NAME="demo_parellprog Coverage Results" MODIFIED="1498269046383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner/Asyncio" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_letustry.coverage" NAME="demo_letustry Coverage Results" MODIFIED="1507195966450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_checkdatetype.coverage" NAME="demo_checkdatetype Coverage Results" MODIFIED="1503848025323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/airqualitymin" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_webdriver.coverage" NAME="demo_webdriver Coverage Results" MODIFIED="1504336113681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_provincegrowth.coverage" NAME="demo_provincegrowth Coverage Results" MODIFIED="1499844529077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/regiondata" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_asynciomagic.coverage" NAME="demo_asynciomagic Coverage Results" MODIFIED="1498294100797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner/Asyncio" />
+    <SUITE FILE_PATH="coverage/pubwork$class_notebookrunner.coverage" NAME="class_notebookrunner Coverage Results" MODIFIED="1505441270036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/notebook" />
+    <SUITE FILE_PATH="coverage/pubwork$class_mail.coverage" NAME="class_mail Coverage Results" MODIFIED="1487925404119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/mail" />
+    <SUITE FILE_PATH="coverage/pubwork$class_usermanager.coverage" NAME="class_usermanager Coverage Results" MODIFIED="1490019417032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
+    <SUITE FILE_PATH="coverage/pubwork$class_statgov.coverage" NAME="class_statgov Coverage Results" MODIFIED="1494827283566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/statsgov" />
+    <SUITE FILE_PATH="coverage/pubwork$moop_first.coverage" NAME="moop_first Coverage Results" MODIFIED="1496584154942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
+    <SUITE FILE_PATH="coverage/pubwork$class_proxy.coverage" NAME="class_proxy Coverage Results" MODIFIED="1498298979696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/proxypool" />
+    <SUITE FILE_PATH="coverage/pubwork$class_redis.coverage" NAME="class_redis Coverage Results" MODIFIED="1505271984289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/database" />
+    <SUITE FILE_PATH="coverage/pubwork$prg_usrmanager.coverage" NAME="prg_usrmanager Coverage Results" MODIFIED="1487925432042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
+    <SUITE FILE_PATH="coverage/pubwork$class_proxiesmanager.coverage" NAME="class_proxiesmanager Coverage Results" MODIFIED="1498398501585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
+    <SUITE FILE_PATH="coverage/pubwork$class_mongoinfoupdate.coverage" NAME="class_mongoinfoupdate Coverage Results" MODIFIED="1505221859107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/database" />
+    <SUITE FILE_PATH="coverage/pubwork$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1503617081894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geeker/pythonnotebook" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_barplot.coverage" NAME="demo_barplot Coverage Results" MODIFIED="1507174663569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
+    <SUITE FILE_PATH="coverage/pubwork$app_cnkiscrpaer.coverage" NAME="app_cnkiscrpaer Coverage Results" MODIFIED="1504343164860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_test.coverage" NAME="demo_test Coverage Results" MODIFIED="1506690963680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_airqualityquery.coverage" NAME="demo_airqualityquery Coverage Results" MODIFIED="1506683392817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_xlsx.coverage" NAME="demo_xlsx Coverage Results" MODIFIED="1503978522693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$demo_readtxt.coverage" NAME="demo_readtxt Coverage Results" MODIFIED="1499869298968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/regiondata" />
     <SUITE FILE_PATH="coverage/pubwork$demo_dianping.coverage" NAME="demo_dianping Coverage Results" MODIFIED="1507438958368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
     <SUITE FILE_PATH="coverage/pubwork$demo_asynciobasic.coverage" NAME="demo_asynciobasic Coverage Results" MODIFIED="1497494600293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner/Asyncio" />
     <SUITE FILE_PATH="coverage/pubwork$tool_poolblock.coverage" NAME="tool_poolblock Coverage Results" MODIFIED="1503649802679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webscrapeproject" />
     <SUITE FILE_PATH="coverage/pubwork$demo_datatransform.coverage" NAME="demo_datatransform Coverage Results" MODIFIED="1499955315860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/spatialtraining" />
-    <SUITE FILE_PATH="coverage/pubwork$demo_letustry.coverage" NAME="demo_letustry Coverage Results" MODIFIED="1507195966450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
-    <SUITE FILE_PATH="coverage/pubwork$demo_checkdatetype.coverage" NAME="demo_checkdatetype Coverage Results" MODIFIED="1503848025323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/airqualitymin" />
     <SUITE FILE_PATH="coverage/pubwork$class_dynamicscraper.coverage" NAME="class_dynamicscraper Coverage Results" MODIFIED="1498395011325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
     <SUITE FILE_PATH="coverage/pubwork$demo.coverage" NAME="demo Coverage Results" MODIFIED="1501377886304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geeker/pythonnotebook" />
-    <SUITE FILE_PATH="coverage/pubwork$demo_webdriver.coverage" NAME="demo_webdriver Coverage Results" MODIFIED="1504336113681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$demo_dataclean.coverage" NAME="demo_dataclean Coverage Results" MODIFIED="1496497572701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
-    <SUITE FILE_PATH="coverage/pubwork$demo_provincegrowth.coverage" NAME="demo_provincegrowth Coverage Results" MODIFIED="1499844529077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/regiondata" />
-    <SUITE FILE_PATH="coverage/pubwork$demo_asynciomagic.coverage" NAME="demo_asynciomagic Coverage Results" MODIFIED="1498294100797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner/Asyncio" />
-    <SUITE FILE_PATH="coverage/pubwork$class_notebookrunner.coverage" NAME="class_notebookrunner Coverage Results" MODIFIED="1505441270036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/notebook" />
-    <SUITE FILE_PATH="coverage/pubwork$class_mail.coverage" NAME="class_mail Coverage Results" MODIFIED="1487925404119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/mail" />
     <SUITE FILE_PATH="coverage/pubwork$demo_subjectfromeduc.coverage" NAME="demo_subjectfromeduc Coverage Results" MODIFIED="1495281464402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webscrapeproject" />
     <SUITE FILE_PATH="coverage/pubwork$demo_readtxt__1_.coverage" NAME="demo_readtxt (1) Coverage Results" MODIFIED="1499981862225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/spatialtraining" />
     <SUITE FILE_PATH="coverage/pubwork$demo_industry_code.coverage" NAME="demo_industry_code Coverage Results" MODIFIED="1506480787025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
     <SUITE FILE_PATH="coverage/pubwork$demo_shareholder.coverage" NAME="demo_shareholder Coverage Results" MODIFIED="1506650170317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
     <SUITE FILE_PATH="coverage/pubwork$app_regulargrade.coverage" NAME="app_regulargrade Coverage Results" MODIFIED="1506391146910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/regulargrade" />
     <SUITE FILE_PATH="coverage/pubwork$demo_provincedata.coverage" NAME="demo_provincedata Coverage Results" MODIFIED="1496548006486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/regiondata" />
-    <SUITE FILE_PATH="coverage/pubwork$class_usermanager.coverage" NAME="class_usermanager Coverage Results" MODIFIED="1490019417032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
     <SUITE FILE_PATH="coverage/pubwork$class_proxymanager.coverage" NAME="class_proxymanager Coverage Results" MODIFIED="1503543228417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/webscraper" />
-    <SUITE FILE_PATH="coverage/pubwork$class_statgov.coverage" NAME="class_statgov Coverage Results" MODIFIED="1494827283566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/statsgov" />
-    <SUITE FILE_PATH="coverage/pubwork$moop_first.coverage" NAME="moop_first Coverage Results" MODIFIED="1496584154942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
-    <SUITE FILE_PATH="coverage/pubwork$class_proxy.coverage" NAME="class_proxy Coverage Results" MODIFIED="1498298979696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/proxypool" />
     <SUITE FILE_PATH="coverage/pubwork$demo_baiduapi.coverage" NAME="demo_baiduapi Coverage Results" MODIFIED="1500532898152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/spatialtraining" />
-    <SUITE FILE_PATH="coverage/pubwork$class_redis.coverage" NAME="class_redis Coverage Results" MODIFIED="1505271984289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/database" />
-    <SUITE FILE_PATH="coverage/pubwork$prg_usrmanager.coverage" NAME="prg_usrmanager Coverage Results" MODIFIED="1487925432042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
+    <SUITE FILE_PATH="coverage/pubwork$class_plot__1_.coverage" NAME="class_plot (1) Coverage Results" MODIFIED="1507795387802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/visualization/bokeh" />
     <SUITE FILE_PATH="coverage/pubwork$demo_tryasyncio.coverage" NAME="demo_tryasyncio Coverage Results" MODIFIED="1503559944462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webscrapeproject" />
-    <SUITE FILE_PATH="coverage/pubwork$class_proxiesmanager.coverage" NAME="class_proxiesmanager Coverage Results" MODIFIED="1498398501585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
     <SUITE FILE_PATH="coverage/pubwork$class_headlessbrowser.coverage" NAME="class_headlessbrowser Coverage Results" MODIFIED="1498402224290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
     <SUITE FILE_PATH="coverage/pubwork$demo_redis.coverage" NAME="demo_redis Coverage Results" MODIFIED="1504445409883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$demo_rebuilddata.coverage" NAME="demo_rebuilddata Coverage Results" MODIFIED="1506582077616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
-    <SUITE FILE_PATH="coverage/pubwork$class_mongoinfoupdate.coverage" NAME="class_mongoinfoupdate Coverage Results" MODIFIED="1505221859107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/database" />
     <SUITE FILE_PATH="coverage/pubwork$demo_pylatex.coverage" NAME="demo_pylatex Coverage Results" MODIFIED="1504169858941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
-    <SUITE FILE_PATH="coverage/pubwork$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1503617081894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geeker/pythonnotebook" />
-    <SUITE FILE_PATH="coverage/pubwork$demo_barplot.coverage" NAME="demo_barplot Coverage Results" MODIFIED="1507174663569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
     <SUITE FILE_PATH="coverage/pubwork$class_cnkiscraper.coverage" NAME="class_cnkiscraper Coverage Results" MODIFIED="1498404119798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
     <SUITE FILE_PATH="coverage/pubwork$class_proxyscraper.coverage" NAME="class_proxyscraper Coverage Results" MODIFIED="1494235678450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
-    <SUITE FILE_PATH="coverage/pubwork$app_cnkiscrpaer.coverage" NAME="app_cnkiscrpaer Coverage Results" MODIFIED="1504343164860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
     <SUITE FILE_PATH="coverage/pubwork$class_plot.coverage" NAME="class_plot Coverage Results" MODIFIED="1507792607492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
     <SUITE FILE_PATH="coverage/pubwork$demo_shareholderpercent.coverage" NAME="demo_shareholderpercent Coverage Results" MODIFIED="1506694253546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
-    <SUITE FILE_PATH="coverage/pubwork$demo_test.coverage" NAME="demo_test Coverage Results" MODIFIED="1506690963680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
-    <SUITE FILE_PATH="coverage/pubwork$demo_airqualityquery.coverage" NAME="demo_airqualityquery Coverage Results" MODIFIED="1506683392817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -86,8 +87,8 @@
       <file leaf-file-name="class_plot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sheldon/visualization/bokeh/class_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4533">
-              <caret line="243" column="4" lean-forward="false" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+            <state relative-caret-position="321">
+              <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -133,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/learner/Asyncio/demo_asynciobasic.py" />
         <option value="$PROJECT_DIR$/demo/learner/Asyncio/demo_parellprog.py" />
         <option value="$PROJECT_DIR$/demo/learner/Asyncio/demo_asynciomagic.py" />
         <option value="$PROJECT_DIR$/application/proxypool/class_proxy.py" />
@@ -184,6 +184,7 @@
         <option value="$PROJECT_DIR$/demo/webdb/demo_dianping.py" />
         <option value="$PROJECT_DIR$/demo/webdb/bdmap.html" />
         <option value="$PROJECT_DIR$/demo/webdb/class_plot.py" />
+        <option value="$PROJECT_DIR$/sheldon/visualization/bokeh/class_plot.py" />
       </list>
     </option>
   </component>
@@ -364,25 +365,7 @@
       <recent name="D:\github\pubwork\pubwork\demo\spatialtraining" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.class_plot">
-    <configuration default="false" name="demo_barplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/webdb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pubwork" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/webdb/demo_barplot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.class_plot (1)">
     <configuration default="false" name="demo_letustry" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -438,6 +421,24 @@
       <method />
     </configuration>
     <configuration default="false" name="bdmap.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pubwork/demo/webdb/bdmap.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="class_plot (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sheldon/visualization/bokeh" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pubwork" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sheldon/visualization/bokeh/class_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -655,19 +656,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.demo_barplot" />
-      <item index="1" class="java.lang.String" itemvalue="Python.demo_letustry" />
-      <item index="2" class="java.lang.String" itemvalue="Python.class_plot" />
-      <item index="3" class="java.lang.String" itemvalue="Python.demo_dianping" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.bdmap.html" />
+      <item index="0" class="java.lang.String" itemvalue="Python.demo_letustry" />
+      <item index="1" class="java.lang.String" itemvalue="Python.class_plot" />
+      <item index="2" class="java.lang.String" itemvalue="Python.demo_dianping" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.bdmap.html" />
+      <item index="4" class="java.lang.String" itemvalue="Python.class_plot (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.class_plot" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.bdmap.html" />
-        <item index="2" class="java.lang.String" itemvalue="Python.demo_dianping" />
-        <item index="3" class="java.lang.String" itemvalue="Python.demo_letustry" />
-        <item index="4" class="java.lang.String" itemvalue="Python.demo_barplot" />
+        <item index="0" class="java.lang.String" itemvalue="Python.class_plot (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.class_plot" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.bdmap.html" />
+        <item index="3" class="java.lang.String" itemvalue="Python.demo_dianping" />
+        <item index="4" class="java.lang.String" itemvalue="Python.demo_letustry" />
       </list>
     </recent_temporary>
   </component>
@@ -686,7 +687,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1924" height="1042" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2486856" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1111,8 +1112,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sheldon/visualization/bokeh/class_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4533">
-          <caret line="243" column="4" lean-forward="false" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+        <state relative-caret-position="321">
+          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding />
         </state>
       </provider>
