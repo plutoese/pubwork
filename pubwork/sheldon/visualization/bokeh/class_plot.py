@@ -45,11 +45,7 @@ class Plot:
     :param pandas.DataFrame data_source: 数据源
     :return: 无返回值
     """
-    def __init__(self, data_source=None,**kwargs):
-        # 设置数据源
-        self.data_source = data_source
-        # 设置bokeh支持的数据源格式，即ColumnDataSource对象
-        self.column_data_source = ColumnDataSource(data_source)
+    def __init__(self, **kwargs):
         # 设置调色板，默认为Category20_20
         if 'palette' in kwargs:
             self._palette = kwargs['palette']
@@ -83,7 +79,20 @@ class BarPlot(Plot):
             data_source = (data_source.groupby(x)).aggregate(group_fn)
             data_source[x] = list(data_source.index)
 
-        super().__init__(data_source=data_source,**kwargs)
+        super().__init__(**kwargs)
+
+        if isinstance(x,(list,tuple)):
+            for x_value in x:
+                data_source[x_value] = data_source[x_value].astype(str)
+                column_data_source = ColumnDataSource(data_source)
+                column_data_source.data[x_value] = column_data_source.data[x_value].astype(str)
+        else:
+            data_source[x] = data_source[x].astype(str)
+            column_data_source = ColumnDataSource(data_source)
+            column_data_source.data[x] = column_data_source.data[x].astype(str)
+        self.data_source = data_source
+        self.column_data_source = column_data_source
+
         self._x = x
         self._y = y
         self._type = type
@@ -108,9 +117,11 @@ class BarPlot(Plot):
         # 设置x坐标轴的范围
         x_range = FactorRange(*self.data_source[self._x])
         # 设置填充的颜色
+        #print('999',type(self._x),'000',self.data_source[self._y],type(self.data_source[self._y]))
         fill_color = factor_cmap(self._x, palette=self._palette, factors=sorted(self.data_source[self._x].unique()), end=1)
         # 作柱状图
         p = self.figure(x_range=x_range,**self._params)
+        #print('hhhh',self._x,self._y)
         p.vbar(x=self._x, top=self._y, width=0.6, fill_color=fill_color, source=self.column_data_source,**kwargs)
         return p
 
@@ -163,12 +174,23 @@ class PointPlot(Plot):
     :return: 无返回值
     """
     def __init__(self, x, y=None, label=None, type='circle', data_source=None, groupby=None, **kwargs):
-        super().__init__(data_source=data_source)
+        super().__init__(**kwargs)
+        #self.data_source = data_source
+        #self.column_data_source = ColumnDataSource(data_source)
         self._x = x
         self._y = y
         self._label = label
         self._type = type
         self._groupby = groupby
+        if groupby is not None:
+            data_source[groupby] = data_source[groupby].astype(str)
+            column_data_source = ColumnDataSource(data_source)
+            column_data_source.data[groupby] = column_data_source.data[groupby].astype(str)
+        else:
+            column_data_source = ColumnDataSource(data_source)
+        self.data_source = data_source
+        self.column_data_source = column_data_source
+
         self._p = self.figure(**kwargs)
 
     def __call__(self, **kwargs):
@@ -207,7 +229,7 @@ class PointPlot(Plot):
 
 
 class HistPlot(Plot):
-    def __init__(self, x, data_source=None, groupby=None, **kwargs):
+    def __init__(self, x, data_source=None, **kwargs):
         super().__init__(data_source=data_source)
         self._x = x
         self._palette = kwargs.get('palette', Category20_20)
@@ -232,20 +254,30 @@ if __name__ == '__main__':
 
     mdata = pd.DataFrame({'fruits': fruits, 'counts': counts})
     mdata = mdata.sort_values(by='counts',ascending=True)
-    barplot = BarPlot(x=('fruits',),y='counts',type='hbar', data_source=mdata)
+    #barplot = BarPlot(x=('fruits',),y='counts',type='vbar', data_source=mdata)
 
     df = pd.DataFrame({'A': ['foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'foo'],
                        'B': ['one', 'one', 'two', 'three', 'two', 'two', 'one', 'three'],
                        'C': np.random.randn(8), 'D': np.random.randn(8)})
     #barplot = BarPlot(x=['A','B'],y='C',type='vbar',data_source=df,title='这是')
-    show(barplot())
+    #show(barplot())
 
-    circle_plot = PointPlot(x='C',y='D',data_source=df,groupby='A',label='B',plot_width=400,plot_height=400,title='散点图')
+    #circle_plot = PointPlot(x='C',y='D',data_source=df,groupby='A',label='A',plot_width=400,plot_height=400,title='散点图')
     #show(circle_plot(size=10,alpha=0.5))
 
     random_df = pd.DataFrame(np.random.randn(100, 4), columns=['A', 'B', 'C', 'D'])
-    circle_plot = PointPlot(x=['A','C'],y=['B','D'],data_source=random_df,plot_width=400,plot_height=400,title='散点图')
-    show(circle_plot(size=10,alpha=0.5))
+    #circle_plot = PointPlot(x=['A','C'],y=['B','D'],data_source=random_df,plot_width=400,plot_height=400,title='散点图')
+    #show(circle_plot(size=10,alpha=0.5))
 
     hist_plot = HistPlot(x='A',data_source=random_df,plot_width=400,plot_height=400,title='直方图')
     #show(hist_plot())
+
+    mdata = pd.read_excel('d:/data/current.xlsx')
+    print(mdata.columns)
+    barplot = BarPlot(x=['acode'], y='人口数', type='hbar', data_source=mdata)
+    #show(barplot())
+
+    circle_plot = PointPlot(x='人口数', y='国内生产总值', data_source=mdata, groupby='year', label='region', plot_width=400, plot_height=400,
+                            title='散点图')
+    show(circle_plot(size=10, alpha=0.5))
+
