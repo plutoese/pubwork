@@ -34,6 +34,8 @@ import numpy as np
 from bokeh.palettes import Category20_20, Spectral5, Paired12
 from bokeh.transform import factor_cmap
 from bokeh.models import ColumnDataSource, FactorRange, LabelSet
+import warnings
+warnings.filterwarnings("ignore")
 
 
 output_file("bars.html")
@@ -229,15 +231,20 @@ class PointPlot(Plot):
 
 
 class HistPlot(Plot):
-    def __init__(self, x, data_source=None, **kwargs):
+    def __init__(self, x, y= None, data_source=None, type=None, **kwargs):
         super().__init__(data_source=data_source)
+        if isinstance(x,(list,tuple)) and len(x) == 1:
+            x = x[0]
         self._x = x
+        self._y = y
         self._palette = kwargs.get('palette', Category20_20)
         self._params = kwargs
         self._p = self.figure(**kwargs)
+        self.data_source = data_source
+        self.column_data_source = ColumnDataSource(data_source)
 
     def __call__(self, **kwargs):
-        measured = self.data_source[self._x]
+        measured = (self.data_source[self._x]).dropna()
         num_of_bins = int(1+3.322*np.log(len(measured)))
         hist, edges = np.histogram(measured, density=True, bins=num_of_bins)
 
@@ -269,15 +276,14 @@ if __name__ == '__main__':
     #circle_plot = PointPlot(x=['A','C'],y=['B','D'],data_source=random_df,plot_width=400,plot_height=400,title='散点图')
     #show(circle_plot(size=10,alpha=0.5))
 
-    hist_plot = HistPlot(x='A',data_source=random_df,plot_width=400,plot_height=400,title='直方图')
+    #hist_plot = HistPlot(x='A',data_source=random_df,plot_width=400,plot_height=400,title='直方图')
     #show(hist_plot())
 
     mdata = pd.read_excel('d:/data/current.xlsx')
     print(mdata.columns)
-    barplot = BarPlot(x=['acode'], y='人口数', type='hbar', data_source=mdata)
-    #show(barplot())
+    barplot = BarPlot(x=('year','region'), y=('国内生产总值',), type='vbar', data_source=mdata)
+    show(barplot())
 
-    circle_plot = PointPlot(x='人口数', y='国内生产总值', data_source=mdata, groupby='year', label='region', plot_width=400, plot_height=400,
-                            title='散点图')
-    show(circle_plot(size=10, alpha=0.5))
+    #circle_plot = PointPlot(x='人口数', y='国内生产总值', data_source=mdata, groupby='year', label='region', plot_width=400, plot_height=400, title='散点图')
+    #show(circle_plot(size=10, alpha=0.5))
 
