@@ -25,6 +25,7 @@ from selenium.webdriver.common.by import By
 from libs.webscraper.class_proxiesmanager import ProxyManager
 from libs.database.class_mongodb import MongoDB, MonDatabase, MonCollection
 
+
 class CnkiScraper:
     """ CnkiScraper类用来爬取中国期刊网数据
 

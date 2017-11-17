@@ -47,7 +47,7 @@ class HeadlessBrowser:
             if type < 1:
                 self.browser = webdriver.PhantomJS(executable_path="D:\\tools\\phantomjs\\bin\\phantomjs.exe")
             elif type == 1:
-                self.browser = webdriver.Firefox()
+                self.browser = webdriver.Firefox(executable_path="D:\\tools\\firefox\\firefox.exe")
             else:
                 self.browser = webdriver.Ie()
 
@@ -212,7 +212,7 @@ class HeadlessBrowser:
 if __name__ == '__main__':
     pmanager = ProxyManager()
     proxy = pmanager.random_http_proxy
-    browser = HeadlessBrowser(proxy=None, timeout=2, type=0)
+    browser = HeadlessBrowser(proxy=None, timeout=2, type=1)
     browser.surf('http://epub.cnki.net/kns/brief/result.aspx?dbprefix=CJFQ',ready_check=(By.CSS_SELECTOR,'#bottom'))
     browser.interact_one_time(location=r'#\31 _4 > a:nth-child(1)',click=True)
     print(browser.get_text(location='.zySearch'))

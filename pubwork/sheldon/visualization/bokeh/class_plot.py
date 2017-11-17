@@ -204,7 +204,7 @@ class PointPlot(Plot):
             if self._label is not None:
                 labels = LabelSet(x=self._x, y=self._y, text=self._label, level='glyph', x_offset=5, y_offset=5, source=self.column_data_source, render_mode='canvas')
                 self._p.add_layout(labels)
-        elif isinstance(self._x, (tuple,list)) and isinstance(self._x, (tuple,list)):
+        elif isinstance(self._x, (tuple,list)) and isinstance(self._y, (tuple,list)):
             self.mulit_variable_plot(**kwargs)
         else:
             raise TypeError
@@ -281,7 +281,7 @@ if __name__ == '__main__':
 
     mdata = pd.read_excel('d:/data/current.xlsx')
     print(mdata.columns)
-    barplot = BarPlot(x=('year','region'), y=('国内生产总值',), type='vbar', data_source=mdata)
+    barplot = PointPlot(x=('人口数','出口'), y=('国内生产总值','国内生产总值'), type='vbar', data_source=mdata)
     show(barplot())
 
     #circle_plot = PointPlot(x='人口数', y='国内生产总值', data_source=mdata, groupby='year', label='region', plot_width=400, plot_height=400, title='散点图')
