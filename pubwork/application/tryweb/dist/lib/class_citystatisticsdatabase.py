@@ -24,8 +24,8 @@ CityStatisticsDatabase
 import re
 import pymongo
 import pandas as pd
-from sheldon.database.class_mongodb import MongoDB, MonDatabase, MonCollection
-from application.admindivision.class_admindivision import AdminDivision
+from .class_mongodb import MongoDB, MonDatabase, MonCollection
+from .class_admindivision import AdminDivision
 
 
 class CityStatisticsDatabase:
@@ -56,9 +56,6 @@ class CityStatisticsDatabase:
         found = self.conn.find().distinct('variable')
         return pd.DataFrame(sorted(found))
 
-    @property
-    def regions(self):
-        return None
 
 class CityStatistics:
     def __init__(self):
@@ -121,9 +118,8 @@ if __name__ == '__main__':
     city_database = CityStatisticsDatabase()
     #city_database.variables.to_excel('d:/data/output/city_variable.xlsx')
 
-    #selected = pd.read_excel(r'D:\data\output\selected_variable.xlsx')
-    #selected_variables = list(selected['variable'])
-    print(city_database.variables)
+    selected = pd.read_excel(r'D:\data\output\selected_variable.xlsx')
+    selected_variables = list(selected['variable'])
 
     '''
     result = city_database.find({'variable':{'$in':selected_variables},'boundary':'全市'},
@@ -131,6 +127,6 @@ if __name__ == '__main__':
                                 sort=[('year',pymongo.ASCENDING),('acode',pymongo.ASCENDING)])'''
 
     city_stat = CityStatistics()
-    result = city_stat.find(variable=['人口密度','人均地区生产总值'],region=['北京市','南京市','上海市'],boundary='全市')
+    result = city_stat.find(variable=['人口密度','人均地区生产总值'],region=['北京市',['江苏省','南京市'],'上海市'],boundary='全市')
     print(result)
     #result.to_excel('d:/data/output/citydata.xlsx')

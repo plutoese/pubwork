@@ -21,7 +21,7 @@ for database_name in sorted(mongo.database_names):
         database_info.append([database_name,None,None])
 
 database_info_pdrame = pd.DataFrame(database_info,columns=['database','collection','count'])
-database_info_pdrame.to_excel(OUTPUT_PATH)
+#database_info_pdrame.to_excel(OUTPUT_PATH)
 
 
 

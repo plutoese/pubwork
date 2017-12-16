@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="区域与公共数据平台">
+    <meta name="author" content="冥王星人">
+
+    <title>区域与公共数据平台</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">区域与公共数据平台</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" method="POST">
+            <div class="form-group">
+              <input type="text" placeholder="username" name='username' id='username' class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" name='password' id='password' class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">登录</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>欢迎您</h1>
+        <p>我们的数据分析平台是一个集数据仓库、数据查询和数据分析的综合平台，致力于为广大师生提供优质的数据服务和先进的数据分析工具。</p>
+        <p><a class="btn btn-primary btn-lg" href="{{ url_for('myapp.updatedlog') }}" role="button">更多 &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>数据仓库</h2>
+          <p>我们是一个高度整合的数据仓库，其中数据既包括城市和区域维度的宏观统计数据，也包括个体和企业层面的微观调研数据。此外，数据平台后台自动运行的数据爬虫和数据API接口还不断整合更新各类实时大数据。</p>
+          <p><a class="btn btn-default" href="#" role="button">详细可见 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>数据查询</h2>
+          <p>我们提供灵活便捷的数据查询接口，用户既可以通过简洁直观的菜单选择方式查询数据，也可以通过命令行的方式来获取数据。提供的返回数据格式有多重选择，既可以是标准的Excel格式也可以是Stata数据格式。</p>
+          <p><a class="btn btn-default" href="#" role="button">详细可见 &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>数据分析</h2>
+          <p>我们的数据分析工具箱提供了一系列使用的数据分析方法，既包含常用的探索性数据分析方法，也包含空间数据的地图展示方法，同时还为流行的大数据机器学习方法及服务于科研学术的标准计量经济学方法。</p>
+          <p><a class="btn btn-default" href="#" role="button">详细可见 &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 华东理工商学院 2015</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

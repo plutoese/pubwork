@@ -15,9 +15,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pubwork$demo_handlehomework.coverage" NAME="demo_handlehomework Coverage Results" MODIFIED="1497490746406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner/Asyncio" />
     <SUITE FILE_PATH="coverage/pubwork$demo_parellprog.coverage" NAME="demo_parellprog Coverage Results" MODIFIED="1498269046383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner/Asyncio" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_file_process.coverage" NAME="demo_file_process Coverage Results" MODIFIED="1512895292732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tryweb/dist" />
     <SUITE FILE_PATH="coverage/pubwork$app_cnki_data_analyst.coverage" NAME="app_cnki_data_analyst Coverage Results" MODIFIED="1508482079882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
     <SUITE FILE_PATH="coverage/pubwork$demo_letustry.coverage" NAME="demo_letustry Coverage Results" MODIFIED="1507195966450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
     <SUITE FILE_PATH="coverage/pubwork$demo_checkdatetype.coverage" NAME="demo_checkdatetype Coverage Results" MODIFIED="1503848025323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/airqualitymin" />
+    <SUITE FILE_PATH="coverage/pubwork$models.coverage" NAME="models Coverage Results" MODIFIED="1512397386602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tryweb/dist" />
     <SUITE FILE_PATH="coverage/pubwork$demo_webdriver.coverage" NAME="demo_webdriver Coverage Results" MODIFIED="1508336215765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
     <SUITE FILE_PATH="coverage/pubwork$app_cnkijournal.coverage" NAME="app_cnkijournal Coverage Results" MODIFIED="1508248283775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
     <SUITE FILE_PATH="coverage/pubwork$demo_provincegrowth.coverage" NAME="demo_provincegrowth Coverage Results" MODIFIED="1499844529077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/regiondata" />
@@ -27,21 +29,23 @@
     <SUITE FILE_PATH="coverage/pubwork$class_mail.coverage" NAME="class_mail Coverage Results" MODIFIED="1487925404119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/mail" />
     <SUITE FILE_PATH="coverage/pubwork$demo_findwav.coverage" NAME="demo_findwav Coverage Results" MODIFIED="1509003042443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/English" />
     <SUITE FILE_PATH="coverage/pubwork$class_usermanager.coverage" NAME="class_usermanager Coverage Results" MODIFIED="1490019417032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
-    <SUITE FILE_PATH="coverage/pubwork$mongo_info.coverage" NAME="mongo_info Coverage Results" MODIFIED="1510635334782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/mongodbaffair" />
+    <SUITE FILE_PATH="coverage/pubwork$mongo_info.coverage" NAME="mongo_info Coverage Results" MODIFIED="1512797168121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/mongodbaffair" />
     <SUITE FILE_PATH="coverage/pubwork$class_statgov.coverage" NAME="class_statgov Coverage Results" MODIFIED="1494827283566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/statsgov" />
     <SUITE FILE_PATH="coverage/pubwork$moop_first.coverage" NAME="moop_first Coverage Results" MODIFIED="1496584154942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$class_proxy.coverage" NAME="class_proxy Coverage Results" MODIFIED="1498298979696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/proxypool" />
-    <SUITE FILE_PATH="coverage/pubwork$class_redis.coverage" NAME="class_redis Coverage Results" MODIFIED="1505271984289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/database" />
+    <SUITE FILE_PATH="coverage/pubwork$class_redis.coverage" NAME="class_redis Coverage Results" MODIFIED="1513000666806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tryweb/dist/lib" />
     <SUITE FILE_PATH="coverage/pubwork$prg_usrmanager.coverage" NAME="prg_usrmanager Coverage Results" MODIFIED="1487925432042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux" />
     <SUITE FILE_PATH="coverage/pubwork$class_proxiesmanager.coverage" NAME="class_proxiesmanager Coverage Results" MODIFIED="1498398501585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
-    <SUITE FILE_PATH="coverage/pubwork$class_admindivision.coverage" NAME="class_admindivision Coverage Results" MODIFIED="1510738956052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/admindivision" />
+    <SUITE FILE_PATH="coverage/pubwork$class_admindivision.coverage" NAME="class_admindivision Coverage Results" MODIFIED="1512694394157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tryweb/dist/lib" />
+    <SUITE FILE_PATH="coverage/pubwork$mongo_info_to_redis.coverage" NAME="mongo_info_to_redis Coverage Results" MODIFIED="1512721323088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/flaskwebtools" />
     <SUITE FILE_PATH="coverage/pubwork$app_cnkidatachecker.coverage" NAME="app_cnkidatachecker Coverage Results" MODIFIED="1509201795953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
     <SUITE FILE_PATH="coverage/pubwork$class_mongoinfoupdate.coverage" NAME="class_mongoinfoupdate Coverage Results" MODIFIED="1505221859107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/database" />
     <SUITE FILE_PATH="coverage/pubwork$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1503617081894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geeker/pythonnotebook" />
     <SUITE FILE_PATH="coverage/pubwork$demo_barplot.coverage" NAME="demo_barplot Coverage Results" MODIFIED="1507174663569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
+    <SUITE FILE_PATH="coverage/pubwork$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1511686202510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/app" />
     <SUITE FILE_PATH="coverage/pubwork$app_cnkiscrpaer.coverage" NAME="app_cnkiscrpaer Coverage Results" MODIFIED="1508636331315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
     <SUITE FILE_PATH="coverage/pubwork$app_cnki_importer.coverage" NAME="app_cnki_importer Coverage Results" MODIFIED="1509201616802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
-    <SUITE FILE_PATH="coverage/pubwork$class_citystatisticsdatabase.coverage" NAME="class_citystatisticsdatabase Coverage Results" MODIFIED="1510741051889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/citystatistics" />
+    <SUITE FILE_PATH="coverage/pubwork$class_citystatisticsdatabase.coverage" NAME="class_citystatisticsdatabase Coverage Results" MODIFIED="1512694486368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tryweb/dist/lib" />
     <SUITE FILE_PATH="coverage/pubwork$demo_test.coverage" NAME="demo_test Coverage Results" MODIFIED="1506690963680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
     <SUITE FILE_PATH="coverage/pubwork$demo_airqualityquery.coverage" NAME="demo_airqualityquery Coverage Results" MODIFIED="1506683392817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
     <SUITE FILE_PATH="coverage/pubwork$demo_xlsx.coverage" NAME="demo_xlsx Coverage Results" MODIFIED="1503978522693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
@@ -51,17 +55,21 @@
     <SUITE FILE_PATH="coverage/pubwork$demo_asynciobasic.coverage" NAME="demo_asynciobasic Coverage Results" MODIFIED="1497494600293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner/Asyncio" />
     <SUITE FILE_PATH="coverage/pubwork$tool_poolblock.coverage" NAME="tool_poolblock Coverage Results" MODIFIED="1503649802679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webscrapeproject" />
     <SUITE FILE_PATH="coverage/pubwork$demo_datatransform.coverage" NAME="demo_datatransform Coverage Results" MODIFIED="1499955315860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/spatialtraining" />
+    <SUITE FILE_PATH="coverage/pubwork$class_citystatisticsdatabase__1_.coverage" NAME="class_citystatisticsdatabase (1) Coverage Results" MODIFIED="1512715488278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/citystatistics" />
     <SUITE FILE_PATH="coverage/pubwork$class_dynamicscraper.coverage" NAME="class_dynamicscraper Coverage Results" MODIFIED="1498395011325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
     <SUITE FILE_PATH="coverage/pubwork$demo.coverage" NAME="demo Coverage Results" MODIFIED="1501377886304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geeker/pythonnotebook" />
     <SUITE FILE_PATH="coverage/pubwork$demo_dataclean.coverage" NAME="demo_dataclean Coverage Results" MODIFIED="1496497572701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
+    <SUITE FILE_PATH="coverage/pubwork$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1513262195395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tryweb" />
     <SUITE FILE_PATH="coverage/pubwork$app_export_literature.coverage" NAME="app_export_literature Coverage Results" MODIFIED="1509203968822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
+    <SUITE FILE_PATH="coverage/pubwork$utility_web_data_provider.coverage" NAME="utility_web_data_provider Coverage Results" MODIFIED="1512624906702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tryweb/dist/lib" />
     <SUITE FILE_PATH="coverage/pubwork$demo_subjectfromeduc.coverage" NAME="demo_subjectfromeduc Coverage Results" MODIFIED="1495281464402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webscrapeproject" />
     <SUITE FILE_PATH="coverage/pubwork$demo_readtxt__1_.coverage" NAME="demo_readtxt (1) Coverage Results" MODIFIED="1499981862225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/spatialtraining" />
     <SUITE FILE_PATH="coverage/pubwork$demo_industry_code.coverage" NAME="demo_industry_code Coverage Results" MODIFIED="1506480787025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
     <SUITE FILE_PATH="coverage/pubwork$demo_shareholder.coverage" NAME="demo_shareholder Coverage Results" MODIFIED="1506650170317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
     <SUITE FILE_PATH="coverage/pubwork$app_regulargrade.coverage" NAME="app_regulargrade Coverage Results" MODIFIED="1506391146910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/regulargrade" />
+    <SUITE FILE_PATH="coverage/pubwork$demo_move_file.coverage" NAME="demo_move_file Coverage Results" MODIFIED="1512894879078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/flaskwebtools" />
     <SUITE FILE_PATH="coverage/pubwork$demo_provincedata.coverage" NAME="demo_provincedata Coverage Results" MODIFIED="1496548006486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/regiondata" />
-    <SUITE FILE_PATH="coverage/pubwork$class_admindivisiondatabase.coverage" NAME="class_admindivisiondatabase Coverage Results" MODIFIED="1510736676689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/admindivision" />
+    <SUITE FILE_PATH="coverage/pubwork$class_admindivisiondatabase.coverage" NAME="class_admindivisiondatabase Coverage Results" MODIFIED="1512694340263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tryweb/dist/lib" />
     <SUITE FILE_PATH="coverage/pubwork$class_proxymanager.coverage" NAME="class_proxymanager Coverage Results" MODIFIED="1503543228417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/webscraper" />
     <SUITE FILE_PATH="coverage/pubwork$demo_baiduapi.coverage" NAME="demo_baiduapi Coverage Results" MODIFIED="1500532898152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/spatialtraining" />
     <SUITE FILE_PATH="coverage/pubwork$class_plot__1_.coverage" NAME="class_plot (1) Coverage Results" MODIFIED="1507944155206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheldon/visualization/bokeh" />
@@ -71,10 +79,12 @@
     <SUITE FILE_PATH="coverage/pubwork$demo_redis.coverage" NAME="demo_redis Coverage Results" MODIFIED="1504445409883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
     <SUITE FILE_PATH="coverage/pubwork$demo_rebuilddata.coverage" NAME="demo_rebuilddata Coverage Results" MODIFIED="1506582077616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
     <SUITE FILE_PATH="coverage/pubwork$demo_pylatex.coverage" NAME="demo_pylatex Coverage Results" MODIFIED="1504169858941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/learner" />
+    <SUITE FILE_PATH="coverage/pubwork$main.coverage" NAME="main Coverage Results" MODIFIED="1511176833942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/flaskweb" />
     <SUITE FILE_PATH="coverage/pubwork$class_cnkiscraper.coverage" NAME="class_cnkiscraper Coverage Results" MODIFIED="1508250974723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
     <SUITE FILE_PATH="coverage/pubwork$class_proxyscraper.coverage" NAME="class_proxyscraper Coverage Results" MODIFIED="1494235678450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs/webscraper" />
     <SUITE FILE_PATH="coverage/pubwork$class_plot.coverage" NAME="class_plot Coverage Results" MODIFIED="1507792607492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/webdb" />
     <SUITE FILE_PATH="coverage/pubwork$demo_shareholderpercent.coverage" NAME="demo_shareholderpercent Coverage Results" MODIFIED="1506694253546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/yangstock" />
+    <SUITE FILE_PATH="coverage/pubwork$app_mongo_info_to_redis.coverage" NAME="app_mongo_info_to_redis Coverage Results" MODIFIED="1512809784345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/flaskwebtools" />
     <SUITE FILE_PATH="coverage/pubwork$demo_cnki_checker.coverage" NAME="demo_cnki_checker Coverage Results" MODIFIED="1509011228827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/cnkiscraper" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -86,37 +96,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="mongo_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/mongodbaffair/mongo_info.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/tryweb/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding>
-                <element signature="e#18#37#0" expanded="true" />
+                <element signature="e#18#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_citystatisticsdatabase.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/citystatistics/class_citystatisticsdatabase.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/tryweb/dist/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="129" column="104" lean-forward="false" selection-start-line="129" selection-start-column="104" selection-end-line="129" selection-end-column="104" />
+            <state relative-caret-position="26">
+              <caret line="243" column="86" lean-forward="false" selection-start-line="243" selection-start-column="86" selection-end-line="243" selection-end-column="86" />
               <folding>
-                <element signature="e#312#321#0" expanded="true" />
+                <element signature="e#309#320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class_admindivision.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/admindivision/class_admindivision.py">
+      <file leaf-file-name="class_proxymanager.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sheldon/webscraper/class_proxymanager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8970">
-              <caret line="348" column="25" lean-forward="false" selection-start-line="348" selection-start-column="25" selection-end-line="348" selection-end-column="25" />
+            <state relative-caret-position="-1752">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/tryweb/dist/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2626">
+              <caret line="106" column="46" lean-forward="false" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
               <folding>
-                <element signature="e#1328#1337#0" expanded="true" />
+                <element signature="e#283#292#0" expanded="true" />
+                <element signature="e#1957#2053#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utility_web_data_provider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/tryweb/dist/lib/utility_web_data_provider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1066">
+              <caret line="229" column="70" lean-forward="false" selection-start-line="229" selection-start-column="70" selection-end-line="229" selection-end-column="70" />
+              <folding>
+                <element signature="e#552#3632#0" expanded="false" />
+                <element signature="e#851#1523#0" expanded="false" />
+                <element signature="e#1583#2405#0" expanded="false" />
+                <element signature="e#3733#3790#0" expanded="false" />
+                <element signature="e#3911#6477#0" expanded="false" />
+                <element signature="e#6553#7671#0" expanded="false" />
+                <element signature="e#7766#8932#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,18 +167,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
-        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hello</find>
-      <find>2005</find>
-      <find>2000</find>
-      <find>1985</find>
-      <find>same</find>
       <find>Journal not matched</find>
       <find>2017</find>
       <find>DDD</find>
@@ -163,6 +198,13 @@
       <find>现代财经</find>
       <find>经济学(季刊)</find>
       <find>经济学</find>
+      <find>webapp</find>
+      <find>a</find>
+      <find>38</find>
+      <find>fetch</find>
+      <find>bbb</find>
+      <find>city_stat_db</find>
+      <find>city_stat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,44 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/geeker/pythonnotebook/test_demo.py" />
-        <option value="$PROJECT_DIR$/demo/webscrapeproject/tool_asyncio.py" />
-        <option value="$PROJECT_DIR$/demo/webscrapeproject/tool_concurrent.py" />
-        <option value="$PROJECT_DIR$/demo/webscrapeproject/tool_poolblock.py" />
-        <option value="$PROJECT_DIR$/application/airqualitymin/demo_checkdatetype.py" />
-        <option value="$PROJECT_DIR$/demo/learner/demo_xlsx.py" />
-        <option value="$PROJECT_DIR$/demo/learner/demo_pylatex.py" />
-        <option value="$PROJECT_DIR$/sheldon/webscraper/class_proxymanager.py" />
-        <option value="$PROJECT_DIR$/demo/learner/demo_webdriver.py" />
-        <option value="$PROJECT_DIR$/demo/learner/demo_redis.py" />
-        <option value="$PROJECT_DIR$/sheldon/database/class_Redis.py" />
-        <option value="$PROJECT_DIR$/sheldon/layout/layout_region_panel.py" />
-        <option value="$PROJECT_DIR$/sheldon/database/class_mongoinfoupdate.py" />
-        <option value="$PROJECT_DIR$/sheldon/database/class_redis.py" />
-        <option value="$PROJECT_DIR$/geeker/pythonnotebook/first_python_notebook.ipynb" />
-        <option value="$PROJECT_DIR$/sheldon/notebook/class_notebookrunner.py" />
-        <option value="$PROJECT_DIR$/demo/regulargrade/app_regulargrade.py" />
-        <option value="$PROJECT_DIR$/demo/yangstock/demo_industry_code.py" />
-        <option value="$PROJECT_DIR$/demo/yangstock/demo_rebuilddata.py" />
-        <option value="$PROJECT_DIR$/demo/webdb/demo_airqualityquery.py" />
-        <option value="$PROJECT_DIR$/demo/yangstock/demo_test.py" />
-        <option value="$PROJECT_DIR$/demo/yangstock/demo_shareholder.py" />
-        <option value="$PROJECT_DIR$/demo/yangstock/demo_shareholderpercent.py" />
-        <option value="$PROJECT_DIR$/demo/webdb/demo_barplot.py" />
-        <option value="$PROJECT_DIR$/demo/webdb/demo_letustry.py" />
-        <option value="$PROJECT_DIR$/demo/webdb/demo_dianping.py" />
-        <option value="$PROJECT_DIR$/demo/webdb/class_plot.py" />
-        <option value="$PROJECT_DIR$/demo/webdb/bdmap.html" />
-        <option value="$PROJECT_DIR$/sheldon/visualization/bokeh/class_plot.py" />
-        <option value="$PROJECT_DIR$/application/cnkiscraper/app_cnkijournal.py" />
-        <option value="$PROJECT_DIR$/application/cnkiscraper/class_cnkiscraper.py" />
-        <option value="$PROJECT_DIR$/libs/webscraper/class_headlessbrowser.py" />
-        <option value="$PROJECT_DIR$/application/matching.py" />
-        <option value="$PROJECT_DIR$/application/matching/demo_boston.py" />
-        <option value="$PROJECT_DIR$/libs/webscraper/demo_webdriver.py" />
-        <option value="$PROJECT_DIR$/application/matching/demo_dianping.py" />
-        <option value="$PROJECT_DIR$/application/cnkiscraper/app_cnki_data_analyst.py" />
-        <option value="$PROJECT_DIR$/application/cnkiscraper/app_cnkiscrpaer.py" />
         <option value="$PROJECT_DIR$/application/cnkiscraper/demo_data_generator.py" />
         <option value="$PROJECT_DIR$/application/matching/demo_rsd.py" />
         <option value="$PROJECT_DIR$/application/cnkiscraper/app_cnki_importer.py" />
@@ -216,12 +220,50 @@
         <option value="$PROJECT_DIR$/application/cnkiscraper/demo_cnki_checker.py" />
         <option value="$PROJECT_DIR$/application/cnkiscraper/app_cnkidatachecker.py" />
         <option value="$PROJECT_DIR$/application/cnkiscraper/app_export_literature.py" />
-        <option value="$PROJECT_DIR$/application/mongodbaffair/mongo_info.py" />
         <option value="$PROJECT_DIR$/sheldon/database/class_mongodb.py" />
         <option value="$PROJECT_DIR$/application/mongodbaffair/mongo_backup.py" />
         <option value="$PROJECT_DIR$/application/admindivision/class_admindivisiondatabase.py" />
         <option value="$PROJECT_DIR$/application/admindivision/class_admindivision.py" />
+        <option value="$PROJECT_DIR$/application/flaskweb/main.py" />
+        <option value="$PROJECT_DIR$/application/app/dist/models.py" />
+        <option value="$PROJECT_DIR$/application/app/templates/js/react_example.js" />
+        <option value="$PROJECT_DIR$/application/app/templates/react_two.html" />
+        <option value="$PROJECT_DIR$/application/app/main.py" />
+        <option value="$PROJECT_DIR$/application/app/templates/updatedlog.html" />
+        <option value="$PROJECT_DIR$/application/app/dist/views.py" />
+        <option value="$PROJECT_DIR$/application/app/static/js/ant_example.js" />
+        <option value="$PROJECT_DIR$/application/app/templates/anttest.html" />
+        <option value="$PROJECT_DIR$/application/app/templates/fetchexample.html" />
+        <option value="$PROJECT_DIR$/application/app/templates/reactone.html" />
+        <option value="$PROJECT_DIR$/application/app/templates/reactpractice.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/index.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/static/css/antd.min.css" />
+        <option value="$PROJECT_DIR$/application/tryweb/static/js/user_database.js" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/fetchexample.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/static/js/fetch_example.js" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/demo01.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/lib/__init__.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/demo02.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/lib/class_admindivisiondatabase.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/lib/class_citystatisticsdatabase.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/lib/class_admindivision.py" />
         <option value="$PROJECT_DIR$/application/citystatistics/class_citystatisticsdatabase.py" />
+        <option value="$PROJECT_DIR$/application/mongodbaffair/mongo_info.py" />
+        <option value="$PROJECT_DIR$/sheldon/database/class_redis.py" />
+        <option value="$PROJECT_DIR$/application/flaskwebtools/mongo_info_to_redis.py" />
+        <option value="$PROJECT_DIR$/application/flaskwebtools/app_mongo_info_to_redis.py" />
+        <option value="$PROJECT_DIR$/application/flaskwebtools/demo_move_file.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/demo_file_process.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/main.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/lib/class_redis.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/lib/utility_web_data_provider.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/city_stat_database.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/user_index.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/user_database.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/ceic_database.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/templates/user_dataset.html" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/views.py" />
+        <option value="$PROJECT_DIR$/application/tryweb/dist/models.py" />
       </list>
     </option>
   </component>
@@ -253,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,6 +308,96 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sheldon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheldon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webscraper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheldon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visualization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheldon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheldon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheldon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datacollection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,72 +429,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="pubwork">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="pubwork">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statsgov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="application">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="pubwork">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="application">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="citystatistics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="mongodbaffair">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pubwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="pubwork">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="application">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admindivision" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="flaskwebtools">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -376,108 +503,113 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js.eslint.eslintPackage" value="C:\Users\plutoese\AppData\Roaming\npm\node_modules\eslint" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github\pubwork\pubwork\libs\import" />
-      <recent name="D:\github\pubwork\pubwork\sheldon\visualization\bokeh" />
-      <recent name="D:\github\pubwork\pubwork\demo\spatialtraining" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\pubwork\pubwork\application\tryweb\static\html" />
+      <recent name="D:\github\pubwork\pubwork\application\tryweb\dist\lib" />
+      <recent name="D:\github\pubwork\pubwork\application\app\static" />
+      <recent name="D:\github\pubwork\pubwork\application\app\templates\js" />
       <recent name="D:\github\pubwork\pubwork\application\admindivision" />
-      <recent name="D:\github\pubwork\pubwork\libs\importlib" />
-      <recent name="D:\github\pubwork\pubwork\sheldon\database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\pubwork\pubwork\application\app\static\js" />
+      <recent name="D:\github\pubwork\pubwork\application\app\static\css" />
+      <recent name="D:\github\pubwork\pubwork\application\app\templates" />
+      <recent name="D:\github\pubwork\pubwork\application\app\static" />
+      <recent name="D:\github\pubwork\pubwork\application\flaskweb\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.class_citystatisticsdatabase">
-    <configuration default="false" name="mongo_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration default="false" name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/mongodbaffair" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/tryweb" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pubwork" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/mongodbaffair/mongo_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/tryweb/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="mongo_backup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="app_mongo_info_to_redis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/mongodbaffair" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/flaskwebtools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pubwork" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/mongodbaffair/mongo_backup.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/flaskwebtools/app_mongo_info_to_redis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="class_citystatisticsdatabase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="demo_move_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/citystatistics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/flaskwebtools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pubwork" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/citystatistics/class_citystatisticsdatabase.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/flaskwebtools/demo_move_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="class_admindivisiondatabase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="demo_file_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/admindivision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/tryweb/dist" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pubwork" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/admindivision/class_admindivisiondatabase.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/tryweb/dist/demo_file_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="class_admindivision" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="class_redis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/admindivision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/tryweb/dist/lib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pubwork" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/admindivision/class_admindivision.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application/tryweb/dist/lib/class_redis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -509,6 +641,11 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -697,19 +834,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.mongo_info" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mongo_backup" />
-      <item index="2" class="java.lang.String" itemvalue="Python.class_citystatisticsdatabase" />
-      <item index="3" class="java.lang.String" itemvalue="Python.class_admindivisiondatabase" />
-      <item index="4" class="java.lang.String" itemvalue="Python.class_admindivision" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.app_mongo_info_to_redis" />
+      <item index="2" class="java.lang.String" itemvalue="Python.demo_move_file" />
+      <item index="3" class="java.lang.String" itemvalue="Python.demo_file_process" />
+      <item index="4" class="java.lang.String" itemvalue="Python.class_redis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.class_citystatisticsdatabase" />
-        <item index="1" class="java.lang.String" itemvalue="Python.class_admindivision" />
-        <item index="2" class="java.lang.String" itemvalue="Python.class_admindivisiondatabase" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mongo_backup" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mongo_info" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.class_redis" />
+        <item index="2" class="java.lang.String" itemvalue="Python.demo_file_process" />
+        <item index="3" class="java.lang.String" itemvalue="Python.demo_move_file" />
+        <item index="4" class="java.lang.String" itemvalue="Python.app_mongo_info_to_redis" />
       </list>
     </recent_temporary>
   </component>
@@ -728,14 +865,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25483504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25938568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -744,7 +881,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2923777" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2741752" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -758,17 +895,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29465303" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25483504" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29351535" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26145834" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22760417" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,344 +925,361 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/yangstock/demo_industry_code.py">
+    <entry file="file://$PROJECT_DIR$/application/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="76" />
+        <state relative-caret-position="26">
+          <caret line="13" column="90" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/yangstock/demo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/yangstock/demo_rebuilddata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="182" column="4" lean-forward="false" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/yangstock/demo_shareholderpercent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/yangstock/demo_shareholder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="199" column="58" lean-forward="false" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/yangstock/demo_dataclean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11674">
-          <caret line="540" column="62" lean-forward="false" selection-start-line="540" selection-start-column="62" selection-end-line="540" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/webscraper/class_proxiesmanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1445">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/webscraper/class_staticwebscraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2964">
-          <caret line="117" column="4" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/database/class_mongodb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1690">
-          <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/webdb/demo_letustry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/webdb/colormapped_bars.html">
+    <entry file="file://$PROJECT_DIR$/application/app/static/js/antd.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/webdb/bars.html">
+    <entry file="file://$PROJECT_DIR$/application/app/static/js/react_example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="234">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/webdb/demo_dianping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/htmlparser/class_htmlparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python/Lib/site-packages/bokeh/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="576" column="0" lean-forward="true" selection-start-line="576" selection-start-column="0" selection-end-line="576" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/webdb/demo_barplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/webdb/bdmap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="86" column="9" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sheldon/visualization/bokeh/bars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python/Lib/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7297">
-          <caret line="2603" column="0" lean-forward="false" selection-start-line="2603" selection-start-column="0" selection-end-line="2603" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sheldon/database/class_mongoinfoupdate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="46" column="109" lean-forward="false" selection-start-line="46" selection-start-column="109" selection-end-line="46" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sheldon/visualization/bokeh/class_plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sheldon/webscraper/class_proxymanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python/Lib/site-packages/selenium/webdriver/common/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2418">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/webscraper/class_headlessbrowser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="49" column="98" lean-forward="false" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/matching.py" />
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_cnkijournal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/matching/demo_dianping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/webscraper/demo_webdriver.py">
+    <entry file="file://$PROJECT_DIR$/application/app/templates/anttest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/webscrapetools/demo_webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/webdb/demo_airqualityquery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/introduction.md" />
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_cnki_data_analyst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_cnkiscrpaer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/matching/demo_boston.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/demo_data_generator.py" />
-    <entry file="file://$PROJECT_DIR$/application/matching/demo_rsd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="155" column="48" lean-forward="false" selection-start-line="155" selection-start-column="48" selection-end-line="155" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/import/class_Excel.py" />
-    <entry file="file://$PROJECT_DIR$/libs/importlib/class_Excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3744">
-          <caret line="146" column="21" lean-forward="false" selection-start-line="143" selection-start-column="4" selection-end-line="146" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/demo_cnki_checker.py" />
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/class_cnkiscraper.py">
+    <entry file="file://$PROJECT_DIR$/application/app/static/js/ant_example.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="471" column="36" lean-forward="false" selection-start-line="471" selection-start-column="36" selection-end-line="471" selection-end-column="36" />
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_export_literature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="345" column="4" lean-forward="false" selection-start-line="345" selection-start-column="4" selection-end-line="345" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_cnkidatachecker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/English/demo_findwav.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/cnkiscraper/app_cnki_importer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/statsgov/class_statgov.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="352" column="0" lean-forward="false" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sheldon/database/class_mongodb.py">
+    <entry file="file://$PROJECT_DIR$/application/app/templates/fetchexample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/templates/react_two.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/dist/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/dist/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/static/index.html" />
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/reactone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/updatedlog.html" />
+    <entry file="file://$PROJECT_DIR$/application/tryweb/static/js/antd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="44" column="67" lean-forward="false" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/anttest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/static/css/antd.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="6" column="154" lean-forward="true" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/static/js/ant_example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/static/js/fetch_example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/fetchexample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/mongodbaffair/mongo_backup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admindivision/class_admindivisiondatabase.py">
+    <entry file="file://$PROJECT_DIR$/application/tryweb/static/js/user_database.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1042">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="535">
+          <caret line="39648" column="5" lean-forward="false" selection-start-line="39648" selection-start-column="5" selection-end-line="39648" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/mongodbaffair/mongo_info.py">
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/demo01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/static/html/demo01.html" />
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/demo02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="97" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admindivision/class_admindivision.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8970">
-          <caret line="348" column="25" lean-forward="false" selection-start-line="348" selection-start-column="25" selection-end-line="348" selection-end-column="25" />
-          <folding>
-            <element signature="e#1328#1337#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-777">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admindivision/class_admindivisiondatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/mongodbaffair/mongo_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheldon/database/class_redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="105" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheldon/database/class_mongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1389">
+          <caret line="245" column="24" lean-forward="true" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/lib/class_admindivision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4238">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/lib/class_admindivisiondatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/lib/class_mongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/flaskwebtools/mongo_info_to_redis.py" />
+    <entry file="file://$PROJECT_DIR$/application/flaskwebtools/app_mongo_info_to_redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/citystatistics/class_citystatisticsdatabase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="129" column="104" lean-forward="false" selection-start-line="129" selection-start-column="104" selection-end-line="129" selection-end-column="104" />
+        <state relative-caret-position="394">
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/lib/class_citystatisticsdatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="36" column="102" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/flaskwebtools/demo_move_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/demo_file_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding>
-            <element signature="e#312#321#0" expanded="true" />
+            <element signature="e#18#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/lib/class_redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2557">
+          <caret line="126" column="62" lean-forward="false" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/user_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/city_stat_database.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/ceic_database.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/user_database.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="48" column="69" lean-forward="false" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/templates/user_dataset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/lib/utility_web_data_provider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="229" column="70" lean-forward="false" selection-start-line="229" selection-start-column="70" selection-end-line="229" selection-end-column="70" />
+          <folding>
+            <element signature="e#552#3632#0" expanded="false" />
+            <element signature="e#851#1523#0" expanded="false" />
+            <element signature="e#1583#2405#0" expanded="false" />
+            <element signature="e#3733#3790#0" expanded="false" />
+            <element signature="e#3911#6477#0" expanded="false" />
+            <element signature="e#6553#7671#0" expanded="false" />
+            <element signature="e#7766#8932#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2626">
+          <caret line="106" column="46" lean-forward="false" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+          <folding>
+            <element signature="e#283#292#0" expanded="true" />
+            <element signature="e#1957#2053#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tryweb/dist/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="243" column="86" lean-forward="false" selection-start-line="243" selection-start-column="86" selection-end-line="243" selection-end-column="86" />
+          <folding>
+            <element signature="e#309#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheldon/webscraper/class_proxymanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1752">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

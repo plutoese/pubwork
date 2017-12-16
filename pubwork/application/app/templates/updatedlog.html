@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="区域与公共数据平台">
+    <meta name="author" content="plutoese">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+
+    <title>数据搜索</title>
+</head>
+
+<body>
+    <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">区域与公共数据平台</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="{{ url_for('myapp.updatedlog') }}">首页</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">区域数据<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">全国数据</a></li>
+                  <li><a href="{{ url_for('myapp.updatedlog') }}">省级数据</a></li>
+                  <li><a href="{{ url_for('myapp.updatedlog') }}">地级数据</a></li>
+                  <li><a href="#">县级数据</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">城市数据</a></li>
+                    <li><a href="#">混合区域数据</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">微观数据<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">CGSS数据</a></li>
+                  <li><a href="#">CHIPS数据</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">企业数据<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">工业企业数据</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">定制数据<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ url_for('myapp.updatedlog') }}">城市空气质量</a></li>
+                  <li><a href="{{ url_for('myapp.updatedlog') }}">省直辖市医院</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="{{ url_for('myapp.updatedlog') }}">用户数据</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">数据分析工具箱<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ url_for('myapp.updatedlog') }}">探索性数据分析</a></li>
+                  <li><a href="{{ url_for('myapp.updatedlog') }}">空间数据可视化</a></li>
+                  <li role="separator" class="divider"></li>
+                    <li><a href="#">机器学习</a></li>
+                    <li><a href="#">空间回归模型</a></li>
+                    <li><a href="#">计量回归模型</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../navbar-static-top/">帮助文档</a></li>
+              <li><a href="{{ url_for('myapp.updatedlog') }}">上传数据</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    </div> <!-- /container -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+         <ul class="nav nav-pills nav-stacked">
+          <br>
+            <li role="presentation" class="active"><a href="#">更新日志</a></li>
+            <li role="presentation"><a href="#">如何进行数据查询</a></li>
+            <li role="presentation"><a href="#">如何定制所需数据</a></li>
+            <li role="presentation"><a href="#">如何上传个人数据</a></li>
+            <li role="presentation"><a href="#">如何进行数据分析</a></li>
+            <li role="separator" class="divider"></li>
+            <li role="presentation"><a href="#">区域数据指南</a></li>
+            <li role="presentation"><a href="#">微观数据指南</a></li>
+            <li role="presentation"><a href="#">企业数据指南</a></li>
+            <li role="presentation"><a href="#">定制数据指南</a></li>
+            <li role="separator" class="divider"></li>
+            <li role="presentation"><a href="#">数据分析功能指南</a></li>
+          </ul>
+        </div>
+        <div class="col-md-9">
+          <div class="blog-post">
+            <h2 class="blog-post-title">2015.12.20更新日志——Windows下Apache+mod_wsgi +FLask配置</h2>
+            <p class="blog-post-meta">December 25, 2015 by <a href="#">张晨峰</a></p>
+
+            <h3>安装apache服务器</h3>
+            <p>解压下载文件（我的是win64-2.4.18-vc10版本），把文件夹（Apache24）解压到c盘（即创建c:\Apache24)。打开cmd，进入Apache24\bin\目录下，运行httpd。打开浏览器，输入http://localhost。如果网页上显示It Works! ，那说明apache服务器运行起来了。</p>
+            <hr>
+            <h3>安装mod_wsgi</h3>
+            <p>把下载得到的.whl文件用winrar解压，得到mod_wsgi.so文件（我的是mod_wsgi-4.4.21+ap24vc10-cp34-none-win_amd64.whl），把它贝至C:\Apache24\modules\下。打开 c:\Apache24\conf\httpd.conf 添加如下配置LoadModule wsgi_module modules/mod_wsgi.so。重新启动httpd，如果没有报错，说明mod_wsgi模块在apache里面加载成功了。</p>
+            <hr>
+            <h3>创建Web App</h3>
+            <p>创建web app目录D:\webapps\test，在此目录下创建两个文件。其一是test.py文件，其二是test.wsgi文件。</p>
+            <hr>
+            <h3>在Apache中配置站点</h3>
+            <p>在httpd.conf文件末尾添加如下命令：WSGIScriptAlias /flasktest d:\webapps\test\test.wsgi。这里需要注意的是，和其他配置略有差异，是因为容易出现403错误，所以参考下列文档，改为上述配置。</p>
+            <hr>
+            <h3>最终测试</h3>
+            <p>现在，打开浏览器，输入 http://localhost/flasktest/hello?name=CZY。如果你看见网页上出现 Hello CZY! 说明你的站点运行起来了。</p>
+          </div><!-- /.blog-post -->
+        </div>
+      </div>
+      <hr>
+
+      <footer>
+        <p>&copy; 华东理工商学院 2015</p>
+      </footer>
+    </div>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

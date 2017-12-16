@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="CSDBS综合数据分析平台">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <title>CSDBS综合数据分析平台</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./static/css/bootstrap.min-cb3ab3438f8.css" rel="stylesheet">
+    <link href="./static/css/antd.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./static/css/docs-cb3e6eda032.css" rel="stylesheet">
+    <link href="./static/css/routing-tree-editor-cbd4d13cac6.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./static/css/font-awesome.min-cb269550530.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div class="">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="./static/images/prometheus_logo_grey.svg" alt="Prometheus logo">CSDBS综合数据分析平台</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right main-nav">
+                    <li><a href="{{ url_for('myapp.user_dataset') }}">我的数据</a></li>
+                    <li><a href="/download/">模板</a></li>
+                    <li><a href="/community/">报告</a></li>
+                    <li><a href="#">欢迎你，{{user}}!</a></li>
+                    <input type="hidden" id="username" value="{{user}}">
+                    <li><a href="/logout">登出</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 side-nav-col">
+            <ul class="nav navbar-nav side-nav">
+
+                <li class="active"><span class="nav-header"><span>简介</span></span><ul class="nav active"><li class="active current"><a href="{{ url_for('myapp.user_index') }}">概述</a></li><li><a href="/docs/introduction/first_steps/">使用指南</a></li><li><a href="/docs/introduction/comparison/">常见问题</a></li><li><a href="/docs/introduction/faq/">更新日志</a></li></ul></li>
+
+                <li><span class="nav-header"><span>数据</span></span><ul class="nav "><li><a href="{{ url_for('myapp.user_database') }}">数据库</a></li><li><a href="/docs/concepts/metric_types/">数据集</a></li></ul></li>
+
+                <li><span class="nav-header"><span>可视化</span></span><ul class="nav "><li><a href="/docs/prometheus/latest/getting_started/">统计表</a></li><li><a href="/docs/prometheus/latest/installation/">统计图</a></li><li><a href="/docs/visualization/grafana/">地图</a></li></ul></li>
+
+                <li><span class="nav-header"><span>模板库</span></span><ul class="nav "><li><a href="/docs/visualization/browser/">数据搜集</a></li><li><a href="/docs/visualization/browser/">数据清理</a></li><li><a href="/docs/visualization/grafana/">探索性数据分析</a></li><li><a href="/docs/visualization/consoles/">实证模型</a></li><li><a href="/docs/visualization/consoles/">机器学习</a></li></ul></li>
+
+                <li><span class="nav-header"><span>关于我们</span></span><ul class="nav "><li><a href="/docs/visualization/browser/">团队介绍</a></li><li><a href="/docs/visualization/grafana/">联系我们</a></li></ul></li>
+
+            </ul>
+        </div>
+
+        <div class="col-md-9 doc-content">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+            <html><body>
+            <h1 id="overview" class="page-header">Overview<a class="header-anchor" href="#overview" name="overview"></a>
+            </h1>
+            <div class="toc toc-right"><ul>
+                <li><a href="#what-is-prometheus?">What is Prometheus?
+                </a></li>
+                <ul>
+                    <li><a href="#features">Features
+                    </a></li>
+                    <li><a href="#components">Components
+                    </a></li>
+                    <li><a href="#architecture">Architecture
+                    </a></li>
+                </ul>
+                <li><a href="#when-does-it-fit?">When does it fit?
+                </a></li>
+                <li><a href="#when-does-it-not-fit?">When does it not fit?
+                </a></li>
+            </ul></div>
+
+            <h2 id="what-is-prometheus?">What is Prometheus?<a class="header-anchor" href="#what-is-prometheus" name="what-is-prometheus"></a>
+            </h2>
+
+            <p><a href="https://github.com/prometheus">Prometheus</a> is an open-source systems
+                monitoring and alerting toolkit originally built at
+                <a href="http://soundcloud.com">SoundCloud</a>. Since its inception in 2012, many
+                companies and organizations have adopted Prometheus, and the project has a very
+                active developer and user <a href="/community">community</a>. It is now a standalone open source project
+                and maintained independently of any company. To emphasize this, and to clarify
+                the project's governance structure, Prometheus joined the
+                <a href="https://cncf.io/">Cloud Native Computing Foundation</a> in 2016
+                as the second hosted project, after <a href="http://kubernetes.io/">Kubernetes</a>.</p>
+
+            <p>For more elaborate overviews of Prometheus, see the resources linked from the
+                <a href="/docs/introduction/media/">media</a> section.</p>
+
+            <h3 id="features">Features<a class="header-anchor" href="#features" name="features"></a>
+            </h3>
+
+            <p>Prometheus's main features are:</p>
+
+            <ul>
+                <li>a multi-dimensional <a href="/docs/concepts/data_model/">data model</a> with time series data identified by metric name and key/value pairs</li>
+                <li>a <a href="/docs/prometheus/latest/querying/basics/">flexible query language</a>
+                    to leverage this dimensionality</li>
+                <li>no reliance on distributed storage; single server nodes are autonomous</li>
+                <li>time series collection happens via a pull model over HTTP</li>
+                <li>
+                    <a href="/docs/instrumenting/pushing/">pushing time series</a> is supported via an intermediary gateway</li>
+                <li>targets are discovered via service discovery or static configuration</li>
+                <li>multiple modes of graphing and dashboarding support</li>
+            </ul>
+
+            <h3 id="components">Components<a class="header-anchor" href="#components" name="components"></a>
+            </h3>
+
+            <p>The Prometheus ecosystem consists of multiple components, many of which are
+                optional:</p>
+
+            <ul>
+                <li>the main <a href="https://github.com/prometheus/prometheus">Prometheus server</a> which scrapes and stores time series data</li>
+                <li>
+                    <a href="/docs/instrumenting/clientlibs/">client libraries</a> for instrumenting application code</li>
+                <li>a <a href="https://github.com/prometheus/pushgateway">push gateway</a> for supporting short-lived jobs</li>
+                <li>special-purpose <a href="/docs/instrumenting/exporters/">exporters</a> for services like HAProxy, StatsD, Graphite, etc.</li>
+                <li>an <a href="https://github.com/prometheus/alertmanager">alertmanager</a> to handle alerts</li>
+                <li>various support tools</li>
+            </ul>
+
+            <p>Most Prometheus components are written in <a href="https://golang.org/">Go</a>, making
+                them easy to build and deploy as static binaries.</p>
+
+            <h3 id="architecture">Architecture<a class="header-anchor" href="#architecture" name="architecture"></a>
+            </h3>
+
+            <p>This diagram illustrates the architecture of Prometheus and some of
+                its ecosystem components:</p>
+
+            <p><img src="/assets/architecture.svg" alt="Prometheus architecture"></p>
+
+            <p>Prometheus scrapes metrics from instrumented jobs, either directly or via an
+                intermediary push gateway for short-lived jobs. It stores all scraped samples
+                locally and runs rules over this data to either aggregate and record new time
+                series from existing data or generate alerts. <a href="https://grafana.com/">Grafana</a> or
+                other API consumers can be used to visualize the collected data.</p>
+
+            <h2 id="when-does-it-fit?">When does it fit?<a class="header-anchor" href="#when-does-it-fit" name="when-does-it-fit"></a>
+            </h2>
+
+            <p>Prometheus works well for recording any purely numeric time series. It fits
+                both machine-centric monitoring as well as monitoring of highly dynamic
+                service-oriented architectures. In a world of microservices, its support for
+                multi-dimensional data collection and querying is a particular strength.</p>
+
+            <p>Prometheus is designed for reliability, to be the system you go to
+                during an outage to allow you to quickly diagnose problems. Each Prometheus
+                server is standalone, not depending on network storage or other remote services.
+                You can rely on it when other parts of your infrastructure are broken, and
+                you do not need to setup extensive infrastructure to use it.</p>
+
+            <h2 id="when-does-it-not-fit?">When does it not fit?<a class="header-anchor" href="#when-does-it-not-fit" name="when-does-it-not-fit"></a>
+            </h2>
+
+            <p>Prometheus values reliability. You can always view what statistics are
+                available about your system, even under failure conditions. If you need 100%
+                accuracy, such as for per-request billing, Prometheus is not a good choice as
+                the collected data will likely not be detailed and complete enough. In such a
+                case you would be best off using some other system to collect and analyze the
+                data for billing, and Prometheus for the rest of your monitoring.</p>
+            </body></html>
+
+        </div>
+
+    </div>
+    <hr>
+
+    <footer>
+        <p class="pull-left">
+            &copy; 华东理工大学 2017
+        </p>
+    </footer>
+
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+<script src="./static/js/bootstrap.min-cb2616d3564.js"></script>
+<script src="./static/js/docs-cbb37f22a9d.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./static/js/ie10-viewport-bug-workaround-cbb5a0dd7ce.js"></script>
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-58468480-1', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>
+

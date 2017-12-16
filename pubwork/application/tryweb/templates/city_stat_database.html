@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="CSDBS综合数据分析平台">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <title>CSDBS综合数据分析平台</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./static/css/bootstrap.min-cb3ab3438f8.css" rel="stylesheet">
+    <link href="./static/css/antd.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./static/css/docs-cb3e6eda032.css" rel="stylesheet">
+    <link href="./static/css/routing-tree-editor-cbd4d13cac6.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./static/css/font-awesome.min-cb269550530.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div class="">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="./static/images/prometheus_logo_grey.svg" alt="Prometheus logo">CSDBS综合数据分析平台</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right main-nav">
+                    <li><a href="{{ url_for('myapp.user_dataset') }}">我的数据</a></li>
+                    <li><a href="/download/">模板</a></li>
+                    <li><a href="/community/">报告</a></li>
+                    <li><a href="#">欢迎你，{{user}}!</a></li>
+                    <input type="hidden" id="username" value="{{user}}">
+                    <li><a href="/blog/">登出</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 side-nav-col">
+            <ul class="nav navbar-nav side-nav">
+
+                <li><span class="nav-header"><span>简介</span></span><ul class="nav "><li><a href="{{ url_for('myapp.user_index') }}">概述</a></li><li><a href="/docs/introduction/first_steps/">使用指南</a></li><li><a href="/docs/introduction/comparison/">常见问题</a></li><li><a href="/docs/introduction/faq/">更新日志</a></li></ul></li>
+
+                <li class="active"><span class="nav-header"><span>数据</span></span><ul class="nav active"><li class="active current"><a href="{{ url_for('myapp.user_database') }}">数据库</a></li><li><a href="/docs/concepts/metric_types/">数据集</a></li></ul></li>
+
+                <li><span class="nav-header"><span>可视化</span></span><ul class="nav "><li><a href="/docs/prometheus/latest/getting_started/">统计表</a></li><li><a href="/docs/prometheus/latest/installation/">统计图</a></li><li><a href="/docs/visualization/grafana/">地图</a></li></ul></li>
+
+                <li><span class="nav-header"><span>模板库</span></span><ul class="nav "><li><a href="/docs/visualization/browser/">数据搜集</a></li><li><a href="/docs/visualization/browser/">数据清理</a></li><li><a href="/docs/visualization/grafana/">探索性数据分析</a></li><li><a href="/docs/visualization/consoles/">实证模型</a></li><li><a href="/docs/visualization/consoles/">机器学习</a></li></ul></li>
+
+                <li><span class="nav-header"><span>关于我们</span></span><ul class="nav "><li><a href="/docs/visualization/browser/">团队介绍</a></li><li><a href="/docs/visualization/grafana/">联系我们</a></li></ul></li>
+
+            </ul>
+        </div>
+
+        <div class="col-md-9 doc-content">
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+            <html><body>
+            <h1 id="city_stat_database" class="page-header">中国城市统计数据库
+                <ul class="nav navbar-nav navbar-right">
+                    <a class="btn btn-default" href="/user_database" role="button">返回</a>
+                </ul>
+            </h1>
+            <div id="root" style="padding: 24px"></div>
+            </body></html>
+        </div>
+
+    </div>
+    <hr>
+
+    <footer>
+        <p class="pull-left">
+            &copy; 华东理工大学 2017
+        </p>
+    </footer>
+
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+<script src="./static/js/bootstrap.min-cb2616d3564.js"></script>
+<script src="./static/js/docs-cbb37f22a9d.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./static/js/ie10-viewport-bug-workaround-cbb5a0dd7ce.js"></script>
+<script type="text/javascript" src="./static/js/city_stat_database.js"></script>
+</body>
+</html>
+

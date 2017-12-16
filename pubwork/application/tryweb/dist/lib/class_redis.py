@@ -107,12 +107,24 @@ class Redis:
         """
         return self._r.type(name=name)
 
+    def exists(self, name):
+        """ 测试某个key是否存在
+
+        :param name: key值
+        :return:
+        """
+        return self._r.exists(name)
+
 if __name__ == '__main__':
     db = Redis()
 
     core_dbs = db.get('core_database')
     for item in core_dbs:
         print(db.get(item)['label'])
+
+    #db.set('testdict',{'name':[1,2,3,4]})
+    result = db.get('testdict')
+    print(result,type(result),result['name'],type(result['name']))
 
     '''
     #db.set('core_database',['ceic'])
