@@ -391,7 +391,7 @@ var EditableTable = function (_React$Component2) {
                 var dataset_status = _this2.state.dataset_status;
 
                 var status = dataset_status[record.name];
-                console.log('herecomes', dataset_status, record.name, dataset_status[record.name], status);
+                //console.log('herecomes',dataset_status,record.name,dataset_status[record.name],status);
                 return _react2.default.createElement(
                     'span',
                     null,
@@ -456,7 +456,7 @@ var EditableTable = function (_React$Component2) {
             fetch(url).then(function (resp) {
                 return resp.json();
             }).then(function (mydata) {
-                console.log(mydata.data);
+                console.log('init', mydata.data);
                 _this3.setState({
                     dataSource: mydata.data.table_data,
                     file_link: mydata.data.file_link,
@@ -634,13 +634,16 @@ var EditableTable = function (_React$Component2) {
             // 3. filter successfully uploaded files according to response from server
             fileList = fileList.filter(function (file) {
                 if (file.response) {
+                    console.log(file.response);
                     return file.response.status === 'success';
                 }
                 return true;
             });
 
             this.setState({ fileList: fileList });
+            console.log('look');
             this.init();
+            console.log('out');
         }
     }, {
         key: 'render',

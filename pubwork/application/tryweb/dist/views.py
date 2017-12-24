@@ -239,10 +239,13 @@ def upload_file():
 
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
+            if filename in os.listdir('./static/file/userfile/{}'.format(user)):
+                return render_template("user_dataset.html", user=user)
             file.save(os.path.join(UPLOAD_FOLDER, filename))
             upload_dataset(owner=user, copy_from=os.path.join(UPLOAD_FOLDER, filename),
                            copy_to='./static/file/userfile/{}/{}'.format(user,filename))
-            return render_template("user_dataset.html", user=user)
+            return jsonify(data='success')
+            #return render_template("user_dataset.html", user=user)
 
     return render_template("user_dataset.html", user=user)
 

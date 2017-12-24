@@ -3,6 +3,7 @@
 import asyncio
 import requests
 from concurrent.futures import ThreadPoolExecutor
+
 executor = ThreadPoolExecutor(max_workers=3)
 
 asyncio.set_event_loop(asyncio.new_event_loop())
